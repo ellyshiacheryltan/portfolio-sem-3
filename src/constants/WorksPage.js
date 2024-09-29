@@ -4,7 +4,7 @@ import samplePhotoThree from "../assets/sample_photo_3.png";
 import auroraStylescapeIterationOne from "../assets/worksPhotos/auroraStylescapeIterationOne.png";
 import auroraStylescapeIterationTwo from "../assets/worksPhotos/auroraStylescapeIterationTwo.png";
 import auroraLogoIterationOne from "../assets/worksPhotos/auroraLogoIterationOne.png";
-import auroraLogoIterationTwo from "../assets/worksPhotos/auroraLogoIterationOne.png";
+import auroraLogoIterationTwo from "../assets/worksPhotos/auroraLogoIterationTwo.png";
 import auroraLogoIterationThree from "../assets/worksPhotos/auroraLogoIterationThree.png";
 import auroraLogoFinal from "../assets/worksPhotos/auroraLogoFinal.png";
 import auroraLogo3D from "../assets/worksPhotos/auroraLogo3D.png";
