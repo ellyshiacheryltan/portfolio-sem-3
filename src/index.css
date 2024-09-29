@@ -1,0 +1,107 @@
+/* ------- FONTS ------- */
+@layer base {
+  @font-face {
+    font-family: 'Instrument Serif Italic';
+    src: url(./assets/fonts/InstrumentSerif-Italic.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url(./assets/fonts/Inter-VariableFont_opsz,wght.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Inter Italic';
+    src: url(./assets/fonts/Inter-Italic-VariableFont_opsz,wght.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'League Gothic';
+    src: url(./assets/fonts/LeagueGothic-Regular-VariableFont_wdth.ttf) format('truetype');
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-instrumentSerifItalic: "Instrument Serif Italic";
+  --font-inter: "Inter";
+  --font-interItalic: "Inter Italic";
+  --font-leagueGothic: "League Gothic";
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply font-inter bg-color-1 text-color-2 text-base;
+  }
+}
+
+.rotate-45 {
+  @apply rotate-[45deg];
+}
+
+.rotate-90 {
+  @apply rotate-[90deg];
+}
+
+.rotate-135 {
+  @apply rotate-[135deg];
+}
+
+.rotate-180 {
+  @apply rotate-[180deg];
+}
+
+.rotate-225 {
+  @apply rotate-[225deg];
+}
+
+.rotate-270 {
+  @apply rotate-[270deg];
+}
+
+.rotate-315 {
+  @apply rotate-[315deg];
+}
+
+.rotate-360 {
+  @apply rotate-[360deg];
+}
+
+.-rotate-45 {
+  @apply rotate-[-45deg];
+}
+
+.-rotate-90 {
+  @apply rotate-[-90deg];
+}
+
+.-rotate-135 {
+  @apply rotate-[-135deg];
+}
+
+.-rotate-180 {
+  @apply rotate-[-180deg];
+}
+
+.-rotate-225 {
+  @apply rotate-[-225deg];
+}
+
+.-rotate-270 {
+  @apply rotate-[-270deg];
+}
+
+.-rotate-315 {
+  @apply rotate-[-315deg];
+}
+
+.-rotate-360 {
+  @apply rotate-[-360deg];
+}
